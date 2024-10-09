@@ -1,0 +1,30 @@
+.footer {
+    background-color: #282c34; /* Dark background color */
+    color: #ffffff; /* White text color */
+    text-align: center; /* Center text */
+    padding: 20px 0; /* Vertical padding */
+    position: relative; /* Positioning for layout */
+    bottom: 0; /* Stick to the bottom if needed */
+    width: 100%; /* Full width */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .footer-links {
+    margin-top: 10px; /* Space above links */
+  }
+  
+  .footer-links a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Space between links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .footer-links a:hover {
+    color: #61dafb; /* Change color on hover */
+  }
+  
